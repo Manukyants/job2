@@ -10,7 +10,7 @@ public class Truck extends Transport {
     }
 
     public void updateTyre() {
-        System.out.println("Меняем покрышку грузового авто");
+        System.out.println("Меняем покрышку грузового авто" + " " + getModelName());
     }
 
     @Override
@@ -21,10 +21,10 @@ public class Truck extends Transport {
 
     }
     public void checkEngine() {
-        System.out.println("Проверяем двигатель грузового авто");
+        System.out.println("Проверяем двигатель грузового авто" + " " + getModelName());
     }
 
     public void checkTrailer() {
-        System.out.println("Проверяем прицеп у грузового авто");
+        System.out.println("Проверяем прицеп у грузового авто"  + " " + getModelName());
     }
 }
